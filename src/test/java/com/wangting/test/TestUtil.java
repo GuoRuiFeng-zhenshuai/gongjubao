@@ -47,7 +47,7 @@ public class TestUtil {
 
 	@Test
 	public void testFile(){
-		Date  eom = DateUtils.getEOM(new Date());
+		Date  eom = DateUtils.getBOM(new Date());
 
 		SimpleDateFormat date=new SimpleDateFormat();
 		String format = date.format(eom);

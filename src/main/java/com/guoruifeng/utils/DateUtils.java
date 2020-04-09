@@ -198,8 +198,8 @@ public class DateUtils {
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTime(date);
 		
-		calendar.set(Calendar.DAY_OF_MONTH, 1);
-		calendar.set(Calendar.HOUR, -12);
+		calendar.set(Calendar.DAY_OF_MONTH, -28);
+		calendar.set(Calendar.HOUR, -24);
 		calendar.set(Calendar.MINUTE, 0);
 		calendar.set(Calendar.SECOND, 0);
 
@@ -217,7 +217,7 @@ public class DateUtils {
 		
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTime(date);
-		calendar.add(Calendar.MONTH, 1);
+		calendar.add(Calendar.MONTH, 0);
 		calendar.set(Calendar.DAY_OF_MONTH, 0);
 		calendar.set(Calendar.HOUR, 12);
 		calendar.set(Calendar.MINUTE, -1);
